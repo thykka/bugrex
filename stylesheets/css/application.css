@@ -362,7 +362,7 @@ html {
 *, *:before, *:after {
   box-sizing: inherit; }
 
-.container {
+.container-site {
   display: flex;
   font-family: 'Menlo';
   font-weight: 400; }
@@ -385,8 +385,6 @@ html {
 
 .right {
   width: 40%;
-  padding: 10%;
-  display: flex;
   background: #eaeaea; }
 
 .logo {
@@ -402,3 +400,36 @@ html {
   color: #e6db74;
   font-weight: 400;
   font-size: 38px; }
+
+#habla_both_div {
+  display: none !important; }
+
+#habla_window_div {
+  margin: 0 !important; }
+
+#habla_conversation_div {
+  width: 100% !important;
+  height: 93vh !important;
+  background: white; }
+
+#habla_conversation_person2 {
+  color: red !important; }
+
+#habla_wcsend_input {
+  background: white;
+  height: 7vh !important;
+  border: none; }
+
+#habla_chatform_form {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  height: 7vh !important;
+  line-height: 70px !important;
+  font-size: 18px; }
+
+#habla_wcsend_input {
+  width: 100%;
+  height: 7vh !important;
+  line-height: 70px !important;
+  padding-left: 10px; }
+  #habla_wcsend_input:focus {
+    outline: none; }
