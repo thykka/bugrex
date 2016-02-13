@@ -432,6 +432,7 @@ body {
   color: rgba(0, 0, 0, 0.5);
   font-weight: 600;
   line-height: 50px;
+  background: rgba(0, 0, 0, 0.075);
   text-align: center; }
 
 #hbl_body_message {
@@ -443,8 +444,8 @@ body {
 #habla_conversation_div {
   padding-top: 35vh !important;
   width: 100% !important;
-  height: 92vh !important;
-  background: white;
+  height: 90% !important;
+  background: #eaeaea;
   padding: 6%; }
 
 #habla_conversation_person2 {
