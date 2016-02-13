@@ -33,41 +33,52 @@ html {
 
 
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   .container-site {
     display: flex;
-    flex-direction: column;
   }
 }
 
 .container-site {
-  display: flex;
-  flex-direction: row;
+  display: block;
+  
   font-family: 'Menlo';
   font-weight: 400;
 }
 
 .left {
-  width: 50%;  
   background: $bg;
   color: $body-white;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 600px) {
   .left {
-    width: 60%;  
+    width: 50%;  
   }
 }
 
-.tagline {
-  font-size: 18px;
-  color: $body-white;
-  line-height: 29px;
+.right {
+
+  background: $chat-bg !important;
 }
 
-.hero-content {
-  margin-top: 25vh;
+@media (min-width: 600px) {
+  .right {
+    position: fixed;
+    width: 50%;
+  }
 }
+
+@media (min-width: 600px) {
+  .hero-content {
+    margin-top: 25vh;
+  }
+
+}
+
+
+
+
 
 .left-content {
   max-width: 700px;
@@ -78,24 +89,12 @@ html {
   margin-right: auto;
 }
 
-.right {
-  width: 50%;
-  position: fixed;
-  background: $chat-bg !important;
-}
 
-@media (min-width: 1000px) {
-  .right {
-    width: 40%;  
-  }
-}
 
 .logo {
-  height: 100%;
-  width: 100%;
-  max-width: 200px;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  max-width: 130px;
+  padding-bottom: 50px;
+  padding-top: 50px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -104,18 +103,55 @@ html {
 .headline {
   color: $yellow;
   font-weight: 400;
-  font-size: 38px;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -0.5px;
 }
 
-.faq-section {
-  margin-top: 400px;
-  background: $dark-bg;
-  padding-top: 50px;
-  padding-bottom: 100px;
+.tagline {
+  font-size: 16px;
+  line-height: 24px;
+  color: $body-white;
+  &:after {
+    content: "at the very bottom of this page. ↓  ";  
+  }
+}
+
+
+
+
+@media (min-width: 600px) {
+  .logo {
+    max-width: 200px;
+  }
+  .headline {
+    font-size: 38px;
+  }
+  .tagline {
+    font-size: 18px;
+    line-height: 29px;
+    &:after {
+      content: "right here -------->";  
+    }
+  }
+  #faq {
+    margin-top: 100px;
+  }
+
+  .faq-section {
+    margin-top: 400px;
+  }
 }
 
 #faq {
   margin-top: 100px;
+}
+
+.faq-section {
+  margin-top: 100px;
+  background: $dark-bg;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 //Olark
@@ -195,7 +231,7 @@ textarea {
 //         -ms-animation: fadein 2s; /* Internet Explorer */
 //          -o-animation: fadein 2s; /* Opera < 12.1 */
 //             animation: fadein 2s;
-            
+
 // }
 
 // @keyframes fadein {
