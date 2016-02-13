@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -362,32 +363,31 @@ html {
 *, *:before, *:after {
   box-sizing: inherit; }
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   .container-site {
-    display: flex;
-    flex-direction: column; } }
+    display: flex; } }
 .container-site {
-  display: flex;
-  flex-direction: row;
+  display: block;
   font-family: 'Menlo';
   font-weight: 400; }
 
 .left {
-  width: 50%;
   background: #272822;
   color: #cdcec8; }
 
-@media (min-width: 1000px) {
+@media (min-width: 600px) {
   .left {
-    width: 60%; } }
-.tagline {
-  font-size: 18px;
-  color: #cdcec8;
-  line-height: 29px; }
+    width: 50%; } }
+.right {
+  background: #eaeaea !important; }
 
-.hero-content {
-  margin-top: 25vh; }
-
+@media (min-width: 600px) {
+  .right {
+    position: fixed;
+    width: 50%; } }
+@media (min-width: 600px) {
+  .hero-content {
+    margin-top: 25vh; } }
 .left-content {
   max-width: 700px;
   padding-right: 20px;
@@ -396,20 +396,10 @@ html {
   margin-left: auto;
   margin-right: auto; }
 
-.right {
-  width: 50%;
-  position: fixed;
-  background: #eaeaea !important; }
-
-@media (min-width: 1000px) {
-  .right {
-    width: 40%; } }
 .logo {
-  height: 100%;
-  width: 100%;
-  max-width: 200px;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  max-width: 130px;
+  padding-bottom: 50px;
+  padding-top: 50px;
   margin-left: auto;
   margin-right: auto;
   display: block; }
@@ -417,16 +407,43 @@ html {
 .headline {
   color: #e6db74;
   font-weight: 400;
-  font-size: 38px; }
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -0.5px; }
+
+.tagline {
+  font-size: 16px;
+  line-height: 24px;
+  color: #cdcec8; }
+  .tagline:after {
+    content: "at the very bottom of this page. ↓  "; }
+
+@media (min-width: 600px) {
+  .logo {
+    max-width: 200px; }
+
+  .headline {
+    font-size: 38px; }
+
+  .tagline {
+    font-size: 18px;
+    line-height: 29px; }
+    .tagline:after {
+      content: "right here -------->"; }
+
+  #faq {
+    margin-top: 100px; }
+
+  .faq-section {
+    margin-top: 400px; } }
+#faq {
+  margin-top: 100px; }
 
 .faq-section {
-  margin-top: 400px;
+  margin-top: 100px;
   background: #1e1f1a;
   padding-top: 50px;
   padding-bottom: 100px; }
-
-#faq {
-  margin-top: 100px; }
 
 #habla_both_div {
   height: 50px;
