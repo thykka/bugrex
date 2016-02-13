@@ -1,4 +1,5 @@
 @import 'normalize';
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic);
 
 $body: 16px;
 $base: 24px;
@@ -40,7 +41,7 @@ html {
 
 .container-site {
   display: block; 
-  font-family: 'Menlo';
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
 
@@ -185,7 +186,7 @@ h2 {
     line-height: 29px;
   }
   #second-tagline:after {
-      content: "Try it out now ----------->";  
+      content: "Try it out now →";  
   }
   #faq {
     margin-top: 100px;
