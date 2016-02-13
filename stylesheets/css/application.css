@@ -5,7 +5,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600);
 html {
   font-family: sans-serif;
   /* 1 */
@@ -374,7 +374,7 @@ html {
     display: flex; } }
 .left {
   background: #323654;
-  color: rgba(255, 255, 255, 0.65); }
+  color: rgba(255, 255, 255, 0.75); }
 
 @media (min-width: 700px) {
   .left {
@@ -449,14 +449,21 @@ html {
 .tagline {
   font-size: 16px;
   line-height: 24px;
-  color: rgba(255, 255, 255, 0.65); }
+  color: rgba(255, 255, 255, 0.75); }
 
 #second-tagline:after {
   content: "Try it out at the bottom of the page. ↓"; }
 
+ol {
+  padding: 0; }
+
 h2 {
   font-size: 18px;
-  color: rgba(255, 255, 255, 0.5); }
+  color: rgba(255, 255, 255, 0.85); }
+
+li {
+  color: #af7dff;
+  font-weight: 600; }
 
 @media (min-width: 600px) {
   .headline {
@@ -495,11 +502,17 @@ h2 {
   color: #409bd6; }
 
 #hbl_body_message, .habla_conversation_person2 {
-  color: #dd2668; }
+  color: #ce2672;
+  font-weight: 600;
+  font-size: 20px; }
+
+#habla_conversation_text_span {
+  font-size: 20px !important; }
 
 #habla_conversation_div {
   height: auto !important;
   padding-top: 10%;
+  font-size: 20px;
   background: #f3f5fa; }
 
 #habla_beta_container_do_not_rely_on_div_classes_or_names {

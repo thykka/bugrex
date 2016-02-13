@@ -1,16 +1,17 @@
 @import 'normalize';
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600);
 
 $body: 16px;
 $base: 24px;
 
-$body-white: rgba(255,255,255,0.65);
+$body-white: rgba(255,255,255,0.75);
 $bg: #323654;
 $yellow: #409bd6;
 $chat-bg: #f3f5fa;
-$purple: #dd2668;
+$purple: #af7dff;
 $dark-bg: #23263b;
 $green: #a5d600;
+$pink: #ce2672;
 
 $tablet: 700px;
 $desktop: 1000px;
@@ -170,11 +171,19 @@ html {
   content: "Try it out at the bottom of the page. ↓";  
 }
 
-h2 {
-  font-size: 18px;
-  color: rgba(255,255,255,0.5);
+ol {
+  padding: 0;
 }
 
+h2 {
+  font-size: 18px;
+  color: rgba(255,255,255,0.85);
+}
+
+li {
+ color: $purple;
+ font-weight: 600;
+}
 
 @media (min-width: 600px) {
   .headline {
@@ -229,13 +238,20 @@ h2 {
 //Olark
 
 #hbl_body_message, .habla_conversation_person2 {
-  color: $purple;
+  color: $pink;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#habla_conversation_text_span {
+  font-size: 20px !important; 
 }
 
 #habla_conversation_div {
   // height: 90vh !important;
   height: auto !important;
   padding-top: 10%;
+  font-size: 20px;
 
   background: $chat-bg;
 }
