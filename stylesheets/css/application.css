@@ -490,6 +490,9 @@ h2 {
     .footer a:hover {
       text-decoration: underline; }
 
+.link {
+  color: #e6db74; }
+
 #hbl_body_message, .habla_conversation_person2 {
   color: #dd2668; }
 
@@ -519,7 +522,8 @@ h2 {
 
 #habla_middle_wrapper_div {
   height: calc( 100% - 100px );
-  padding-left: 20px; }
+  padding-left: 20px;
+  overflow: scroll !important; }
 
 #habla_wcsend_input {
   border: none;
