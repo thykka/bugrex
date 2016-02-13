@@ -20,6 +20,7 @@ html {
 html {
     overflow: hidden;
     height: 100%;
+    font-size: 16px;
 }
 
 body {
@@ -34,13 +35,14 @@ body {
 }
 
 .left {
-  width: 60%;
+  width: 50%;  
   background: $bg;
   color: $body-white;
+}
 
-  // height: 100vh;
-  p {
-    font-size: 16px;
+@media (min-width: 1000px) {
+  .left {
+    width: 60%;  
   }
 }
 
@@ -51,11 +53,13 @@ body {
 }
 
 .hero-content {
-  margin-top: 200px; 
+  margin-top: 250px; 
 }
 
 .left-content {
-  max-width: 650px;
+  max-width: 700px;
+  padding-right: 20px;
+  padding-left: 20px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -69,8 +73,7 @@ body {
 }
 
 .logo {
-  height: 25%;
-  width: 25%;
+  height: 50px;
   margin-bottom: 50px;
   margin-top: 50px;
   margin-left: auto;
