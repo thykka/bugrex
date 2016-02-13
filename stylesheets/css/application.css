@@ -490,8 +490,12 @@ h2 {
     .footer a:hover {
       text-decoration: underline; }
 
+#hbl_body_message, .habla_conversation_person2 {
+  color: #dd2668; }
+
 #habla_conversation_div {
   height: auto !important;
+  padding-top: 10%;
   background: #eaeaea; }
 
 #habla_beta_container_do_not_rely_on_div_classes_or_names {

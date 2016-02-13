@@ -223,10 +223,14 @@ h2 {
 
 //Olark
 
+#hbl_body_message, .habla_conversation_person2 {
+  color: $purple;
+}
+
 #habla_conversation_div {
   // height: 90vh !important;
   height: auto !important;
-  
+  padding-top: 10%;
 
   background: $chat-bg;
 }
