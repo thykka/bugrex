@@ -423,9 +423,9 @@ html {
   width: 158px; }
 
 #becomeexpert {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
-  border: 1px solid #e6db74;
+  border: 1px solid rgba(255, 255, 255, 0.35);
   font-size: 13px;
   text-align: center;
   padding-top: 7px;
@@ -434,6 +434,9 @@ html {
   line-height: 16px;
   width: 160px;
   height: 30px; }
+  #becomeexpert:hover {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    color: #e6db74; }
 
 .headline {
   color: #e6db74;
@@ -448,7 +451,7 @@ html {
   color: #cdcec8; }
 
 #second-tagline:after {
-  content: "at the very bottom of this page. ↓  "; }
+  content: "Start chatting now at the bottom of this page. ↓"; }
 
 h2 {
   font-size: 18px;
@@ -464,7 +467,7 @@ h2 {
     line-height: 29px; }
 
   #second-tagline:after {
-    content: " right now --->"; }
+    content: "Start chatting with an expert right now ----------->"; }
 
   #faq {
     margin-top: 100px; } }
