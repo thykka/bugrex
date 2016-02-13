@@ -439,6 +439,15 @@ html {
     border: 1px solid rgba(255, 255, 255, 0.4);
     color: #4cb9ff; }
 
+#habla_offline_email_input {
+  width: 90%; }
+
+#habla_name_input {
+  width: 90%; }
+
+#habla_offline_body_input {
+  width: 90%; }
+
 .headline {
   color: #4cb9ff;
   font-weight: 400;
