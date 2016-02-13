@@ -17,6 +17,16 @@ html {
   box-sizing: inherit;
 }
 
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    overflow: auto;
+}
+
 .container-site {
   display: flex;
   font-family: 'Menlo';
@@ -53,6 +63,7 @@ html {
 
 .right {
   width: 40%;
+  position: fixed;
   background: $chat-bg;
 
 }
