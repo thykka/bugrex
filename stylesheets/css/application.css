@@ -373,8 +373,8 @@ html {
   .container-site {
     display: flex; } }
 .left {
-  background: #353b59;
-  color: #cdcec8; }
+  background: #323654;
+  color: rgba(255, 255, 255, 0.5); }
 
 @media (min-width: 700px) {
   .left {
@@ -449,10 +449,10 @@ html {
 .tagline {
   font-size: 16px;
   line-height: 24px;
-  color: #cdcec8; }
+  color: rgba(255, 255, 255, 0.5); }
 
 #second-tagline:after {
-  content: "Try it out at the bottom of the page. ↓"; }
+  content: "Try it out in the chat at the bottom. ↓"; }
 
 h2 {
   font-size: 18px;
@@ -468,7 +468,7 @@ h2 {
     line-height: 29px; }
 
   #second-tagline:after {
-    content: "Try it out now →"; }
+    content: "Try it out in the chat →"; }
 
   #faq {
     margin-top: 100px; } }
@@ -477,7 +477,7 @@ h2 {
 
 .faq-section {
   margin-top: 100px;
-  background: #323654;
+  background: #23263b;
   padding-top: 50px;
   padding-bottom: 100px; }
 

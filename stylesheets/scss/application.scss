@@ -4,12 +4,12 @@
 $body: 16px;
 $base: 24px;
 
-$body-white: #cdcec8;
-$bg: #353b59;
+$body-white: rgba(255,255,255,0.50);
+$bg: #323654;
 $yellow: #409bd6;
 $chat-bg: #f3f5fa;
 $purple: #dd2668;
-$dark-bg: #323654;
+$dark-bg: #23263b;
 $green: #a5d600;
 
 $tablet: 700px;
@@ -167,7 +167,7 @@ html {
 }
 
 #second-tagline:after {
-  content: "Try it out at the bottom of the page. ↓";  
+  content: "Try it out in the chat at the bottom. ↓";  
 }
 
 h2 {
@@ -186,7 +186,7 @@ h2 {
     line-height: 29px;
   }
   #second-tagline:after {
-      content: "Try it out now →";  
+      content: "Try it out in the chat →";  
   }
   #faq {
     margin-top: 100px;
