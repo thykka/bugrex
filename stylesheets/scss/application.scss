@@ -29,8 +29,18 @@ body {
     overflow: auto;
 }
 
+
+
+@media (max-width: 600px) {
+  .container-site {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .container-site {
   display: flex;
+  flex-direction: row;
   font-family: 'Menlo';
   font-weight: 400;
 }
