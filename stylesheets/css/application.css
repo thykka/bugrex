@@ -362,15 +362,6 @@ html {
 *, *:before, *:after {
   box-sizing: inherit; }
 
-html {
-  overflow: hidden;
-  height: 100%;
-  font-size: 16px; }
-
-body {
-  height: 100%;
-  overflow: auto; }
-
 @media (max-width: 600px) {
   .container-site {
     display: flex;
@@ -406,10 +397,13 @@ body {
   margin-right: auto; }
 
 .right {
-  width: 40%;
+  width: 50%;
   position: fixed;
-  background: #eaeaea; }
+  background: #eaeaea !important; }
 
+@media (min-width: 1000px) {
+  .right {
+    width: 40%; } }
 .logo {
   height: 100%;
   width: 100%;

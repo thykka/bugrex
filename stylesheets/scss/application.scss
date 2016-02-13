@@ -18,16 +18,18 @@ html {
   box-sizing: inherit;
 }
 
-html {
-    overflow: hidden;
-    height: 100%;
-    font-size: 16px;
-}
 
-body {
-    height: 100%;
-    overflow: auto;
-}
+//Remove bounce
+// html {
+//     overflow: hidden;
+//     height: 100%;
+//     font-size: 16px;
+// }
+
+// body {
+//     height: 100%;
+//     overflow: auto;
+// }
 
 
 
@@ -77,9 +79,15 @@ body {
 }
 
 .right {
-  width: 40%;
+  width: 50%;
   position: fixed;
-  background: $chat-bg;
+  background: $chat-bg !important;
+}
+
+@media (min-width: 1000px) {
+  .right {
+    width: 40%;  
+  }
 }
 
 .logo {
