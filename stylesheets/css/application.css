@@ -476,20 +476,19 @@ h2 {
 
 #habla_conversation_div {
   height: auto !important;
-  background: rgba(255, 0, 0, 0.1) !important; }
+  background: #eaeaea; }
 
 #habla_beta_container_do_not_rely_on_div_classes_or_names {
-  background: rgba(255, 165, 0, 0.2) !important;
+  background: #eaeaea;
   height: 100vh !important; }
 
 #habla_topbar_div {
-  background: rgba(0, 128, 0, 0.5);
+  background: rgba(0, 0, 0, 0.1);
   height: 50px;
   text-align: center;
   line-height: 50px; }
 
 #habla_chatform_form {
-  background: rgba(0, 0, 255, 0.5);
   height: 100% !important; }
   #habla_chatform_form textarea, #habla_chatform_form #habla_input_div {
     width: 100%;
