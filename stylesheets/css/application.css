@@ -392,10 +392,18 @@ html {
 @media (min-width: 1000px) {
   .right {
     width: 40%; } }
+.hero-content {
+  height: 30vh;
+  margin-top: 15vh; }
+
 @media (min-width: 700px) {
   .hero-content {
-    height: 30vh;
-    margin-top: 15vh; } }
+    height: 35vh;
+    margin-top: 17vh; } }
+@media (min-width: 1000px) {
+  .hero-content {
+    height: 40vh;
+    margin-top: 20vh; } }
 .left-content {
   max-width: 700px;
   padding-right: 20px;
@@ -404,27 +412,28 @@ html {
   margin-left: auto;
   margin-right: auto; }
 
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px; }
+
 .logo {
-  max-width: 130px;
-  padding-bottom: 50px;
-  padding-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block; }
+  height: 38px;
+  width: 158px; }
 
 #becomeexpert {
   color: rgba(255, 255, 255, 0.9);
   text-decoration: none;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  font-size: 12px;
+  border: 1px solid #e6db74;
+  font-size: 13px;
+  text-align: center;
   padding-top: 7px;
   padding-bottom: 7px;
   border-radius: 100px;
-  width: 150px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  text-align: center; }
+  line-height: 16px;
+  width: 160px;
+  height: 30px; }
 
 .headline {
   color: #e6db74;
@@ -437,17 +446,15 @@ html {
   font-size: 16px;
   line-height: 24px;
   color: #cdcec8; }
-  .tagline:after {
-    content: "at the very bottom of this page. ↓  "; }
+
+#second-tagline:after {
+  content: "at the very bottom of this page. ↓  "; }
 
 h2 {
   font-size: 18px;
   color: rgba(255, 255, 255, 0.5); }
 
 @media (min-width: 600px) {
-  .logo {
-    max-width: 200px; }
-
   .headline {
     font-size: 33px;
     line-height: 42px; }
@@ -455,8 +462,9 @@ h2 {
   .tagline {
     font-size: 18px;
     line-height: 29px; }
-    .tagline:after {
-      content: "right now -------->"; }
+
+  #second-tagline:after {
+    content: " right now --->"; }
 
   #faq {
     margin-top: 100px; } }
@@ -503,4 +511,12 @@ h2 {
   height: 100vh; }
 
 #habla_middle_wrapper_div {
-  height: 90%; }
+  height: calc( 100% - 100px );
+  padding-left: 20px; }
+
+#habla_wcsend_input {
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.25); }
+
+#habla_window_div {
+  margin: 0 !important; }

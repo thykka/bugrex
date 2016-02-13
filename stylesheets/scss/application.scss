@@ -11,7 +11,8 @@ $purple: #dd2668;
 $dark-bg: #1e1f1a;
 $green: #a5d600;
 
-$mobile: 700px;
+$tablet: 700px;
+$desktop: 1000px;
 
 html {
   box-sizing: border-box;
@@ -43,7 +44,7 @@ html {
   font-weight: 400;
 }
 
-@media (min-width: $mobile) {
+@media (min-width: $tablet) {
   .container-site {
     display: flex;
   }
@@ -55,7 +56,7 @@ html {
   color: $body-white;
 }
 
-@media (min-width: $mobile) {
+@media (min-width: $tablet) {
   .left {
     width: 50%;  
   }
@@ -72,7 +73,7 @@ html {
   background: $chat-bg !important;
 }
 
-@media (min-width: $mobile) {
+@media (min-width: $tablet) {
   .right {
     position: fixed;
     width: 50%;
@@ -85,13 +86,25 @@ html {
   }
 }
 
-@media (min-width: $mobile) {
+.hero-content {
+  height: 30vh;
+  margin-top: 15vh;
+}
+
+@media (min-width: $tablet) {
   .hero-content {
-    height: 30vh;
-    margin-top: 15vh;
+    height: 35vh;
+    margin-top: 17vh;
     // margin-bottom: 30vh;
   }
+}
 
+@media (min-width: $desktop) {
+  .hero-content {
+    height: 40vh;
+    margin-top: 20vh;
+    // margin-bottom: 30vh;
+  }
 }
 
 
@@ -107,31 +120,30 @@ html {
   margin-right: auto;
 }
 
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
 
 .logo {
-  max-width: 130px;
-  padding-bottom: 50px;
-  padding-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+  height: 38px;
+  width: 158px;
 }
 
 #becomeexpert {
   color: rgba(white,0.9);
   text-decoration: none;
-  border: 1px solid rgba(white,0.5);
-  font-size: 12px;  
+  border: 1px solid $yellow;
+  font-size: 13px;  
+  text-align: center;
   padding-top: 7px;
   padding-bottom: 7px;
   border-radius: 100px;
-  width: 150px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  text-align: center;
-  
-
+  line-height: 16px;
+  width: 160px;
+  height: 30px;
 }
 
 .headline {
@@ -146,9 +158,11 @@ html {
   font-size: 16px;
   line-height: 24px;
   color: $body-white;
-  &:after {
-    content: "at the very bottom of this page. ↓  ";  
-  }
+
+}
+
+#second-tagline:after {
+  content: "at the very bottom of this page. ↓  ";  
 }
 
 h2 {
@@ -158,9 +172,6 @@ h2 {
 
 
 @media (min-width: 600px) {
-  .logo {
-    max-width: 200px;
-  }
   .headline {
     font-size: 33px;
     line-height: 42px;
@@ -168,9 +179,9 @@ h2 {
   .tagline {
     font-size: 18px;
     line-height: 29px;
-    &:after {
-      content: "right now -------->";  
-    }
+  }
+  #second-tagline:after {
+      content: " right now --->";  
   }
   #faq {
     margin-top: 100px;
@@ -243,8 +254,18 @@ h2 {
 }
 
 #habla_middle_wrapper_div {
-  height: 90%;
+  height: calc( 100% - 100px );
+  padding-left: 20px;
 } 
+
+#habla_wcsend_input {
+  border: none;
+  border-top: 1px solid rgba(0,0,0,0.25);
+}
+
+#habla_window_div {
+  margin: 0 !important;
+}
 
 // #habla_expanded_div {
 //   height: 100vh !important;
