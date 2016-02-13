@@ -4,7 +4,7 @@
 $body: 16px;
 $base: 24px;
 
-$body-white: rgba(255,255,255,0.50);
+$body-white: rgba(255,255,255,0.65);
 $bg: #323654;
 $yellow: #409bd6;
 $chat-bg: #f3f5fa;
@@ -167,7 +167,7 @@ html {
 }
 
 #second-tagline:after {
-  content: "Try it out in the chat at the bottom. ↓";  
+  content: "Try it out at the bottom of the page. ↓";  
 }
 
 h2 {
@@ -186,7 +186,7 @@ h2 {
     line-height: 29px;
   }
   #second-tagline:after {
-      content: "Try it out in the chat →";  
+      content: "Try it out now →";  
   }
   #faq {
     margin-top: 100px;
