@@ -108,7 +108,6 @@ html {
 }
 
 
-
 .logo {
   max-width: 130px;
   padding-bottom: 50px;
@@ -116,6 +115,16 @@ html {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+#becomeexpert {
+  color: red;
+  border: 1px solid #af7dff;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  border-radius: 100px;
 }
 
 .headline {
@@ -221,6 +230,14 @@ h2 {
     height: 100% !important;
   }
 }
+
+#habla_middle_div {
+  height: 100vh;
+}
+
+#habla_middle_wrapper_div {
+  height: 90%;
+} 
 
 // #habla_expanded_div {
 //   height: 100vh !important;

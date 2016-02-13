@@ -412,6 +412,15 @@ html {
   margin-right: auto;
   display: block; }
 
+#becomeexpert {
+  color: red;
+  border: 1px solid #af7dff;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  border-radius: 100px; }
+
 .headline {
   color: #e6db74;
   font-weight: 400;
@@ -485,3 +494,9 @@ h2 {
   #habla_chatform_form textarea, #habla_chatform_form #habla_input_div {
     width: 100%;
     height: 100% !important; }
+
+#habla_middle_div {
+  height: 100vh; }
+
+#habla_middle_wrapper_div {
+  height: 90%; }
