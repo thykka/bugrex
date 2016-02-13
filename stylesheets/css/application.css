@@ -413,13 +413,18 @@ html {
   display: block; }
 
 #becomeexpert {
-  color: red;
-  border: 1px solid #af7dff;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-left: 20px;
-  padding-bottom: 10px;
-  border-radius: 100px; }
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 100px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center; }
 
 .headline {
   color: #e6db74;

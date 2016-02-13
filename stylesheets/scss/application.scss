@@ -118,13 +118,20 @@ html {
 }
 
 #becomeexpert {
-  color: red;
-  border: 1px solid #af7dff;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-left: 20px;
-  padding-bottom: 10px;
+  color: rgba(white,0.9);
+  text-decoration: none;
+  border: 1px solid rgba(white,0.5);
+  font-size: 12px;  
+  padding-top: 7px;
+  padding-bottom: 7px;
   border-radius: 100px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  
+
 }
 
 .headline {
