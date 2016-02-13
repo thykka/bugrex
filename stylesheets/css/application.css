@@ -370,8 +370,7 @@ html {
 .left {
   width: 60%;
   background: #272822;
-  color: #cdcec8;
-  height: 100vh; }
+  color: #cdcec8; }
   .left p {
     font-size: 16px; }
 
@@ -410,8 +409,8 @@ html {
 .faq-section {
   margin-top: 400px;
   background: #1e1f1a;
-  height: 500px;
-  padding-top: 50px; }
+  padding-top: 50px;
+  padding-bottom: 100px; }
 
 #habla_both_div {
   display: none !important; }

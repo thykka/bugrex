@@ -27,7 +27,8 @@ html {
   width: 60%;
   background: $bg;
   color: $body-white;
-  height: 100vh;
+
+  // height: 100vh;
   p {
     font-size: 16px;
   }
@@ -53,6 +54,7 @@ html {
 .right {
   width: 40%;
   background: $chat-bg;
+
 }
 
 .logo {
@@ -74,8 +76,8 @@ html {
 .faq-section {
   margin-top: 400px;
   background: $dark-bg;
-  height: 500px;
   padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 //Olark
