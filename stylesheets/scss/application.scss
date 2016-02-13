@@ -68,7 +68,7 @@ html {
 }
 
 .right {
-
+  height: 100%;
   background: $chat-bg !important;
 }
 
@@ -141,7 +141,7 @@ h2 {
 }
 
 
-@media (min-width: $mobile) {
+@media (min-width: 600px) {
   .logo {
     max-width: 200px;
   }
@@ -189,70 +189,124 @@ h2 {
   }
 }
 
+
 //Olark
 
-#habla_both_div {
-  // display: none !important;
-  height: 50px;
-  text-transform: uppercase;
-  color: rgba(0,0,0,0.5);
-  font-weight: 600;
-  line-height: 50px;
-  background: rgba(0,0,0,0.075);
-  text-align: center;
-}
-
-#hbl_body_message {
-  color: $purple;
-}
-
-#habla_window_div {
-  margin: 0 !important;
-}
-
 #habla_conversation_div {
-  padding-top: 35vh !important;
-  width: 100% !important;
-  height: 90% !important;
-  background: $chat-bg;
-  padding: 6%;
+  // height: 90vh !important;
+  height: auto !important;
+  
+
+  background: rgba(red, 0.1) !important;
 }
 
-#habla_conversation_person2 {
-  color: red !important;
+#habla_beta_container_do_not_rely_on_div_classes_or_names {
+  background: rgba(orange,0.2) !important;
+  // height: 100% !important;
+  height: 100vh !important;
 }
 
+#habla_topbar_div {
+  background: rgba(green,0.5);
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
 
 #habla_chatform_form {
-  border: 1px solid rgba(0,0,0,0.20);
-
-  height: 8vh !important;
-  
-  font-size: 18px;
-  
-}
-
-#habla_wcsend_input {
-  // padding-top: 2vh;
-  border: none;
-  width: 100%;
-  height: 8vh !important;
-  
-  // line-height: 70px !important;
-  padding-left: 3%;
-  padding-top: 3%;
-  &:focus {
-    outline: none;
+  background: rgba(blue,0.5);
+  height: 100% !important;
+  textarea, #habla_input_div {
+    width: 100%;
+    height: 100% !important;
   }
 }
 
-textarea {
-  resize: none;
-}
+// #habla_expanded_div {
+//   height: 100vh !important;
+// }
 
-.habla_conversation_person2 {
-  color: $purple !important;
-}
+// #habla_window_div, #habla_panel_div {
+//   height: 100vh !important;
+// }
+
+//Olark
+
+// #habla_beta_container_do_not_rely_on_div_classes_or_names {
+//   background: rgba(red,0.2) !important;
+//   // height: 100% !important;
+//   height: 100% !important;
+// }
+
+// // #habla_conversation_div, #hbl_operator_state_div, #hbl_region, #habla_window_state_div, #habla_window_div, #habla_panel_div, #habla_expanded_div, #habla_middle_div {
+// //  height: 100% !important;  
+// // }
+
+
+
+// #habla_both_div {
+//   // display: none !important;
+//   // height: 50px;
+//   text-transform: uppercase;
+//   color: rgba(0,0,0,0.5);
+//   font-weight: 600;
+//   line-height: 50px;
+//   background: rgba(0,0,0,0.075);
+//   text-align: center;
+// }
+
+// #hbl_body_message {
+//   color: $purple;
+// }
+
+// #habla_window_div {
+//   margin: 0 !important;
+// }
+
+// #habla_conversation_div {
+//   // padding-top: 35vh !important;
+//   width: 100% !important;
+//   // height: 100% !important;
+//   background: $chat-bg;
+//   padding: 6%;
+
+// }
+
+// #habla_conversation_person2 {
+//   color: red !important;
+// }
+
+
+// #habla_chatform_form {
+//   border: 1px solid rgba(0,0,0,0.20);
+
+//   // height: 8vh !important;
+  
+//   font-size: 18px;
+  
+// }
+
+// #habla_wcsend_input {
+//   // padding-top: 2vh;
+//   border: none;
+//   width: 100%;
+//   // height: 8vh !important;
+  
+//   // line-height: 70px !important;
+//   padding-left: 3%;
+//   padding-top: 3%;
+//   &:focus {
+//     outline: none;
+//   }
+// }
+
+// textarea {
+//   resize: none;
+// }
+
+// .habla_conversation_person2 {
+//   color: $purple !important;
+// }
 
 
 // // CSS Animations
