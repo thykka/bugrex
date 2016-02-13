@@ -371,11 +371,17 @@ html {
   width: 60%;
   background: #272822;
   color: #cdcec8;
-  padding-left: 10%;
-  padding-right: 10%;
   height: 100vh; }
   .left p {
     font-size: 16px; }
+
+.tagline {
+  font-size: 18px;
+  color: #cdcec8;
+  line-height: 29px; }
+
+.hero-content {
+  margin-top: 200px; }
 
 .left-content {
   max-width: 650px;
@@ -401,6 +407,12 @@ html {
   font-weight: 400;
   font-size: 38px; }
 
+.faq-section {
+  margin-top: 400px;
+  background: #1e1f1a;
+  height: 500px;
+  padding-top: 50px; }
+
 #habla_both_div {
   display: none !important; }
 
@@ -410,26 +422,28 @@ html {
 #habla_conversation_div {
   width: 100% !important;
   height: 93vh !important;
-  background: white; }
+  background: white;
+  padding: 6%; }
 
 #habla_conversation_person2 {
   color: red !important; }
 
-#habla_wcsend_input {
-  background: white;
-  height: 7vh !important;
-  border: none; }
-
 #habla_chatform_form {
   border: 1px solid rgba(0, 0, 0, 0.2);
   height: 7vh !important;
-  line-height: 70px !important;
   font-size: 18px; }
 
 #habla_wcsend_input {
+  padding-top: 27px;
+  border: none;
   width: 100%;
   height: 7vh !important;
-  line-height: 70px !important;
-  padding-left: 10px; }
+  padding-left: 6%; }
   #habla_wcsend_input:focus {
     outline: none; }
+
+textarea {
+  resize: none; }
+
+.habla_conversation_person2 {
+  color: #dd2668 !important; }
