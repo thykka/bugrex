@@ -373,7 +373,7 @@ html {
   .container-site {
     display: flex; } }
 .left {
-  background: #272822;
+  background: #353b59;
   color: #cdcec8; }
 
 @media (min-width: 700px) {
@@ -384,7 +384,7 @@ html {
     width: 60%; } }
 .right {
   height: 100%;
-  background: #eaeaea !important; }
+  background: #f3f5fa !important; }
 
 @media (min-width: 700px) {
   .right {
@@ -437,10 +437,10 @@ html {
   height: 30px; }
   #becomeexpert:hover {
     border: 1px solid rgba(255, 255, 255, 0.4);
-    color: #e6db74; }
+    color: #409bd6; }
 
 .headline {
-  color: #e6db74;
+  color: #409bd6;
   font-weight: 400;
   font-size: 26px;
   line-height: 40px;
@@ -477,7 +477,7 @@ h2 {
 
 .faq-section {
   margin-top: 100px;
-  background: #1e1f1a;
+  background: #323654;
   padding-top: 50px;
   padding-bottom: 100px; }
 
@@ -492,7 +492,7 @@ h2 {
       text-decoration: underline; }
 
 .link {
-  color: #e6db74; }
+  color: #409bd6; }
 
 #hbl_body_message, .habla_conversation_person2 {
   color: #dd2668; }
@@ -500,10 +500,10 @@ h2 {
 #habla_conversation_div {
   height: auto !important;
   padding-top: 10%;
-  background: #eaeaea; }
+  background: #f3f5fa; }
 
 #habla_beta_container_do_not_rely_on_div_classes_or_names {
-  background: #eaeaea;
+  background: #f3f5fa;
   height: 100vh !important; }
 
 #habla_topbar_div {
