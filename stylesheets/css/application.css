@@ -437,10 +437,10 @@ html {
   height: 30px; }
   #becomeexpert:hover {
     border: 1px solid rgba(255, 255, 255, 0.4);
-    color: #409bd6; }
+    color: #4cb9ff; }
 
 .headline {
-  color: #409bd6;
+  color: #4cb9ff;
   font-weight: 400;
   font-size: 26px;
   line-height: 40px;
@@ -499,7 +499,7 @@ li {
       text-decoration: underline; }
 
 .link {
-  color: #409bd6; }
+  color: #4cb9ff; }
 
 #hbl_body_message, .habla_conversation_person2 {
   color: #ce2672;
