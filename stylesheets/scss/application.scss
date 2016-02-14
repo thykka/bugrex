@@ -235,7 +235,7 @@ li {
 
 //Olark
 
-#hbl_body_message, .habla_conversation_person2, #habla_pre_chat_div {
+#hbl_body_message, .habla_conversation_person2, #habla_pre_chat_div span, #habla_pre_chat_error_span span{
   color: $pink;
   font-weight: 600;
   font-size: 20px;
@@ -292,9 +292,11 @@ li {
   padding-left: 10px;
   border-radius: 2px;
   border: 1px solid rgba(0,0,0,0.25);
+  color: #333;
 }
 
 #habla_pre_chat_submit_input {
+  display: none !important;
   background: $yellow;
   border: 1px solid rgba(0,0,0,0.25);
   border-radius: 3px;
