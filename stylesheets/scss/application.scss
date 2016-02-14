@@ -281,6 +281,16 @@ li {
 #habla_pre_chat_email_input {
   width: 100% !important;
   height: 50px !important;
+  margin-top: 50px;
+}
+
+#habla_pre_chat_submit_input {
+  background: $yellow;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  height: 50px;
+  width: 250px;
 }
 
 
