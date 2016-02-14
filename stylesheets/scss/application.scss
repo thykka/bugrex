@@ -18,6 +18,8 @@ $desktop: 1000px;
 
 html {
   box-sizing: border-box;
+  body: 16px;
+  line-height: 23px;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -161,6 +163,7 @@ html {
   color: $body-white;
 
 }
+
 
 #second-tagline:after {
   content: "Try it out at the bottom of the page. ↓";  
