@@ -67,7 +67,9 @@ analytics.page()
 <script>
 window.setInterval(function() {
   var elem = document.getElementById('habla_middle_wrapper_div');
-  elem.scrollTop = elem.scrollHeight;
+  if (elem) {
+      elem.scrollTop = elem.scrollHeight;
+  }
 }, 1000);
 </script>
 
