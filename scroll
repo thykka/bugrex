@@ -1,0 +1,7 @@
+<script>
+window.setInterval(function() {
+  var elem = document.getElementById('habla_middle_wrapper_div');
+  console.log('elem: ', elem);
+  elem.scrollTop = elem.scrollHeight;
+}, 1000);
+</script>
