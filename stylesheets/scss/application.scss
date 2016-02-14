@@ -235,7 +235,7 @@ li {
 
 //Olark
 
-#hbl_body_message, .habla_conversation_person2 {
+#hbl_body_message, .habla_conversation_person2, #habla_pre_chat_div {
   color: $pink;
   font-weight: 600;
   font-size: 20px;
@@ -278,19 +278,31 @@ li {
   }
 }
 
+#habla_pre_chat_div {
+  padding-top: 50px;
+}
+
 #habla_pre_chat_email_input {
   width: 100% !important;
   height: 50px !important;
   margin-top: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-left: 10px;
+  border-radius: 2px;
+  border: 1px solid rgba(0,0,0,0.25);
 }
 
 #habla_pre_chat_submit_input {
   background: $yellow;
-  border: none;
+  border: 1px solid rgba(0,0,0,0.25);
   border-radius: 3px;
   color: white;
   height: 50px;
   width: 250px;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 
