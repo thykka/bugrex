@@ -13,6 +13,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/andreas.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10644,
+		"inputAbbreviatedPath": "\/images\/andreas.jpg",
+		"outputAbbreviatedPath": "\/images\/andreas.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/andy.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
