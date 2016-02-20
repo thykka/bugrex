@@ -13,6 +13,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/alexanderblue.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45166,
+		"inputAbbreviatedPath": "\/images\/alexanderblue.jpg",
+		"outputAbbreviatedPath": "\/images\/alexanderblue.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/alexanderblue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 170948,
+		"inputAbbreviatedPath": "\/images\/alexanderblue.png",
+		"outputAbbreviatedPath": "\/images\/alexanderblue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/andreas.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -24,6 +46,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/andreasblue.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31794,
+		"inputAbbreviatedPath": "\/images\/andreasblue.jpg",
+		"outputAbbreviatedPath": "\/images\/andreasblue.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/andy.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -31,6 +64,17 @@
 		"initialSize": 17352,
 		"inputAbbreviatedPath": "\/images\/andy.jpeg",
 		"outputAbbreviatedPath": "\/images\/andy.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/andyblue.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38777,
+		"inputAbbreviatedPath": "\/images\/andyblue.jpg",
+		"outputAbbreviatedPath": "\/images\/andyblue.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -86,6 +130,17 @@
 		"initialSize": 96069,
 		"inputAbbreviatedPath": "\/images\/per.jpg",
 		"outputAbbreviatedPath": "\/images\/per.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/perblue.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46563,
+		"inputAbbreviatedPath": "\/images\/perblue.jpg",
+		"outputAbbreviatedPath": "\/images\/perblue.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -206,7 +261,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Per Borgen",
+"lastSavedByUser": "Hennie Gadget Services",
 "manualImportLinks": {
 	},
 "projectAttributes": {
