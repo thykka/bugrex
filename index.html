@@ -129,6 +129,13 @@ olark('api.chat.onMessageToOperator', function(event) {
         objDiv.scrollTop = objDiv.scrollHeight;
     }, 50);
 });
+
+olark('api.chat.onMessageToVisitor', function(event) {
+    setTimeout(function(){
+      var objDiv = document.getElementById("habla_middle_wrapper_div");
+        objDiv.scrollTop = objDiv.scrollHeight;
+    }, 50);
+});
     analytics.track('View Landing Page');
 </script>
   
