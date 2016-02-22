@@ -90,6 +90,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/google.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6875,
+		"inputAbbreviatedPath": "\/images\/google.png",
+		"outputAbbreviatedPath": "\/images\/google.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ibm.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40511,
+		"inputAbbreviatedPath": "\/images\/ibm.png",
+		"outputAbbreviatedPath": "\/images\/ibm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/linenumbers.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -152,6 +174,17 @@
 		"initialSize": 10952,
 		"inputAbbreviatedPath": "\/images\/stephen.jpg",
 		"outputAbbreviatedPath": "\/images\/stephen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/zocdoc.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21117,
+		"inputAbbreviatedPath": "\/images\/zocdoc.png",
+		"outputAbbreviatedPath": "\/images\/zocdoc.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

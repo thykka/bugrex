@@ -123,6 +123,15 @@ olark.identify('2115-606-10-6991');/*]]>*/</script><noscript><a href="https://ww
         </div>
 
   <script>
+
+setInterval(function(){
+  var composing = document.getElementsByClassName('olark-composing-message');
+  if (composing.length > 0){
+    var objDiv = document.getElementById("habla_middle_wrapper_div");
+      objDiv.scrollTop = objDiv.scrollHeight;
+  }
+}, 1000);
+
 olark('api.chat.onMessageToOperator', function(event) {
     setTimeout(function(){
       var objDiv = document.getElementById("habla_middle_wrapper_div");
